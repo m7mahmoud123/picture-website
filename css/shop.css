@@ -1,0 +1,163 @@
+*{
+
+    font-family: 'Cairo', sans-serif;
+font-family: 'Noto Nastaliq Urdu', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Work Sans', sans-serif;
+color:aliceblue;
+margin:0px;
+padding:0px;
+direction: rtl;
+box-sizing: border-box;
+}
+
+
+header{
+
+    width:100%;
+   min-height:10vh;
+   background-color:black;
+   z-index:1000;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   
+   
+}
+
+
+.logo a i {
+
+    font-size:30px;
+    padding-right:20px;
+    color:rgb(219, 27, 27);
+    transition-duration:.5s;
+}
+
+
+.nav{
+
+    width:90%;
+    display:flex;
+    list-style-type:none;
+    justify-content:space-between;
+    padding:20px;
+}
+
+
+.nav li a{
+
+    text-decoration:none;
+    font-weight:900;
+    font-size:20px;
+    transition-duration:.5s;
+    
+}
+
+.nav li a:hover{
+
+    color:brown;
+    
+}
+
+.logo a i:hover{
+
+    color:rgb(114, 115, 197);
+}
+
+
+
+section{
+
+    background-color:rgb(221, 171, 171);
+    min-height:100vh;
+    width:100%;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+
+section .card {
+
+
+    width:400px;
+    border:2px solid gray;
+    background-color:black;
+    margin:10px auto;
+    
+    
+
+}
+
+
+section .card img{
+
+    width:100%;
+}
+
+
+section .card .text{
+
+    display:flex;
+    justify-content:space-between;
+    padding:5px;
+}
+
+
+section .card .text p,i{
+    font-size:20px;
+    color:rgb(245, 38, 38);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    background-color:black;
+    height:10vh;
+    display:flex;
+    justify-content:space-between;
+    padding:0px 20px;
+    align-items:center;
+    z-index:;
+
+}
+
+.contact{
+
+
+    width:30%;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.contact a i{
+
+    font-size:20px;
+    transition-duration:1s;
+
+    
+}
+
+.contact a i:hover{
+
+color:brown;
+transform:scale(1.5);
+}
